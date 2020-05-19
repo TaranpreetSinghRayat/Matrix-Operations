@@ -1,0 +1,33 @@
+/*public boolean checkStrict(int[][] first_matrix, int[][] second_matrix){
+    if((first_matrix != null) && (second_matrix != null)){
+        int[] firstMatrixData = getInputRowsCols(first_matrix);
+        int[] secondMatrixData = getInputRowsCols(second_matrix);
+
+        if((firstMatrixData[0] == secondMatrixData[0]) && (firstMatrixData[1] == secondMatrixData[1])){
+            return true;
+        }
+    }
+    return false;
+}*/
+
+/*private boolean checkMatrix(int[][] inputMatrix){
+    ArrayList<Integer> colCounter = new ArrayList<Integer>();
+    try{
+        for(int i=0; i<inputMatrix.length; i++){
+            for(int j=0; j<inputMatrix[i].length; j++){
+                if(j == (inputMatrix[i].length - 1) ){
+                    colCounter.add(j + 1);
+                }
+            }
+        }
+
+        for(Integer resultSet: colCounter){
+            if(!resultSet.equals(colCounter.get(0))){
+                return false;
+            }
+        }
+    }catch (Exception e){
+        e.printStackTrace();
+    }
+    return true;
+}*/
